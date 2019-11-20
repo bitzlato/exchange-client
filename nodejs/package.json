@@ -1,0 +1,25 @@
+{
+  "name": "bot-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -- demo.ts",
+    "ts-node": "ts-node demo.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bitzlato-node-client": "https://dl.bintray.com/bitzlato/exchange/node-client/bitzlato-node-client-1.0.0.tgz",
+    "core-js": "^3.4.0",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.2"
+  }
+}
