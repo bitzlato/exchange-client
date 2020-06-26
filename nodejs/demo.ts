@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const restHost = "https://demo.bitzlato.com";
-const grpcHost = "dm-grpc.bitzlato.com:443";
+const restHost = "https://bitzlato.com";
+const grpcHost = "grpc.bitzlato.com:443";
 const grpcTls = true;
 
 // const grpcHost = "localhost:6565";
