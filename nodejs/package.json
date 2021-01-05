@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bitzlato-node-client": "https://dl.bintray.com/bitzlato/exchange/node-client/bitzlato-node-client-1.0.0.tgz",
     "core-js": "^3.4.0",
     "typescript": "^3.7.2"
